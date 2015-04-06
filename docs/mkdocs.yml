@@ -2,4 +2,4 @@ site_name: SQL Developer
 docs_dir: docs
 pages:
 - ['docs/index.md', 'Introduction']
-- ['docs/sql_developer.md', 'SQL Developer', 'Subheading']
+- ['sql_developer.md', 'SQL Developer', 'Subheading']
