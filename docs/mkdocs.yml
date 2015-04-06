@@ -1,0 +1,4 @@
+site_name: SQL Developer
+pages:
+- ['index.md', 'Introduction']
+- ['sql_developer.md', 'SQL Developer', 'Subheading']
