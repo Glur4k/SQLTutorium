@@ -1,5 +1,0 @@
-site_name: SQL Developer
-docs_dir: docs
-pages:
-- ['docs/index.md', 'Introduction']
-- ['sql_developer.md', 'SQL Developer', 'Subheading']
