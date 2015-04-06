@@ -1,4 +1,0 @@
-FAQ
-===
-
-Die Blubb
