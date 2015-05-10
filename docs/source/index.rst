@@ -13,7 +13,7 @@ Inhalte:
 ^^^^^^^^
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
-   SQL Developer
+   sql_developer
    FAQ
