@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# SQLTutorium documentation build configuration file, created by
-# sphinx-quickstart on Sun May 10 21:15:20 2015.
+# SQL Tutorium documentation build configuration file, created by
+# sphinx-quickstart on Sun May 10 21:41:55 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -29,12 +29,10 @@ import shlex
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.autodoc',
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['ntemplates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -48,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'SQLTutorium'
+project = u'SQL Tutorium'
 copyright = u'2015, Sandro Tonon'
 author = u'Sandro Tonon'
 
@@ -76,7 +74,7 @@ language = 'de'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['nbuild']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -139,7 +137,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['nstatic']
+html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -224,7 +222,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'SQLTutorium.tex', u'SQLTutorium Documentation',
+  (master_doc, 'SQLTutorium.tex', u'SQL Tutorium Documentation',
    u'Sandro Tonon', 'manual'),
 ]
 
@@ -254,7 +252,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sqltutorium', u'SQLTutorium Documentation',
+    (master_doc, 'sqltutorium', u'SQL Tutorium Documentation',
      [author], 1)
 ]
 
@@ -268,7 +266,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'SQLTutorium', u'SQLTutorium Documentation',
+  (master_doc, 'SQLTutorium', u'SQL Tutorium Documentation',
    author, 'SQLTutorium', 'One line description of project.',
    'Miscellaneous'),
 ]
