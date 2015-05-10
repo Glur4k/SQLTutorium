@@ -1,4 +1,0 @@
-Willkommen
-==========
-
-Hier ein Intro.
