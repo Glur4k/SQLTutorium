@@ -62,9 +62,32 @@ Im Folgenden ein kleines Tutorial wie man sich mit dem SQL Developer auf dem Ser
 <img alt="_images/SQL_Developer.png" src="_images/SQL_Developer.png" />
 <p class="caption"><span class="caption-text">SQL Developer Startbildschirm</span></p>
 </div>
-<div class="section" id="eine-section">
-<h2>Eine Section<a class="headerlink" href="#eine-section" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Hier eine Section</p>
+<div class="section" id="verbindung-anlegen">
+<h2>Verbindung anlegen<a class="headerlink" href="#verbindung-anlegen" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Damit man Zugriff auf den Datenbanken-Server hat, muss zu erst eine Verbindung zum VPN der HTWG hergestellt werden!</p>
+</div>
+<p>Um eine Verbindung mit dem Server herzustellen, muss zunächst eine neue Verbindung angelegt werden. Dies geschieht indem man unter &#8220;Verbindungen&#8221; auf &#8220;neue Verbindung...&#8221; (oder das grüne Plus-Zeichen) klickt:</p>
+<div class="figure" id="id2">
+<img alt="_images/Neue_Verbindung.png" src="_images/Neue_Verbindung.png" />
+<p class="caption"><span class="caption-text">SQL Developer - Neue Verbindung</span></p>
+</div>
+<p>Dadurch öffnet sich ein Dialogfenster, in dem man die Verbindungsdaten eingeben muss.
+Dort muss folgendes eingetragen werden:</p>
+<div class="highlight-python"><div class="highlight"><pre>1) Verbindungsname: *Der gewünschte Verbindungsname*
+2) Benutzername:    *dbsys + gewählte-Nr. (z.B. dbsys10) -&gt; siehe TN-Liste*
+3) Kennwort:        *wie Benutzername*
+4) Hostname:        *oracle12c.in.htwg-konstanz.de*
+5) SID (DB-Name):   *ora12c*
+</pre></div>
+</div>
+<div class="figure" id="id3">
+<img alt="_images/Verbindungsdaten.png" src="_images/Verbindungsdaten.png" />
+<p class="caption"><span class="caption-text">SQL Developer - Verbindungsdaten</span></p>
+</div>
+<p>Durch Klick auf &#8220;Test&#8221; können die Einstellungen getestet werden. Wenn dabei keine Fehlermeldung erscheint, sind die Einstellungen korrekt.
+Durch Klick auf &#8220;Speichern&#8221; wird die Verbindung gespeichert und das Fenster geschlossen.</p>
 </div>
 </div>
 
@@ -77,7 +100,7 @@ Im Folgenden ein kleines Tutorial wie man sich mit dem SQL Developer auf dem Ser
   <h3><a href="index.html">Inhalt</a></h3>
   <ul>
 <li><a class="reference internal" href="#">SQL Developer</a><ul>
-<li><a class="reference internal" href="#eine-section">Eine Section</a></li>
+<li><a class="reference internal" href="#verbindung-anlegen">Verbindung anlegen</a></li>
 </ul>
 </li>
 </ul>
