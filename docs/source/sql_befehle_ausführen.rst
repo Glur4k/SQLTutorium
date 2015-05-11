@@ -1,4 +1,4 @@
-.. _sql_befehle_ausführen:
-
 SQL Befehle ausführen
 =====================
+
+Hier steht wie man Befehle ausführt.
