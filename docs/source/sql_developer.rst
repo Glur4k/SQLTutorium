@@ -52,7 +52,7 @@ Um sich nun mit dem Server zu verbinden, muss auf die gerade erstellte Verbindun
   SQL Developer - Anmelden
 
 
-Daraufhin wird die Verbindung zum Server hergestellt. Außerdem wird automatisch ein Skript mit dem Verbindungsnamen als Name angelegt. Hier können die SQL-Befehle reingeschrieben und ausgeführt werden (näheres dazu in `Befehle ausführen`_).
+Daraufhin wird die Verbindung zum Server hergestellt. Außerdem wird automatisch ein Skript mit dem Verbindungsnamen als Name angelegt. Hier können die SQL-Befehle reingeschrieben und ausgeführt werden (näheres dazu in :ref:`run-sql-statements`).
 
 
 Passwort ändern
@@ -68,10 +68,4 @@ Dazu einfach in folgendes SQL-Statement eingeben (und die entsprechenden Daten a
    IDENTIFIED BY "altesPasswort(dbsysXX)"
    REPLACE "neuesPasswort"
 
-Anschließend müssen die Änderungen auch in den Verbindungseinstellungen angepasst und sie erneut angemeldet werden.
-
-
-
-Befehle ausführen
-^^^^^^^^^^^^^^^^^
-
+Anschließend müssen die Änderungen auch in den Verbindungseinstellungen angepasst und sich erneut angemeldet werden.
