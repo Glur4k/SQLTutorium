@@ -16,5 +16,5 @@ Inhalte:
    :maxdepth: 2
 
    sql_developer
-   sql_befehle_ausführen
+   sql_befehle_ausfuehren
    FAQ
