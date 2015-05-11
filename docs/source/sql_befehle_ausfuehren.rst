@@ -3,7 +3,7 @@
 SQL Befehle ausführen
 =====================
 
-Im Developer können Befehle unterschiedlich ausgeführt werden:
+Im SQL Developer können Befehle unterschiedlich ausgeführt werden:
 
 - :ref:`run_entire_script`
 - :ref:`run_single_statement`

@@ -1,7 +1,7 @@
 Allgemeines
 ===========
 
-Allgemine Hinweise für das Praktikum:
+Allgemeine Hinweise für das Praktikum:
 
 
 .. note::
