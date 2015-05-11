@@ -52,7 +52,7 @@ Um sich nun mit dem Server zu verbinden, muss auf die gerade erstellte Verbindun
   SQL Developer - Anmelden
 
 
-Daraufhin wird die Verbindung zum Server hergestellt. Außerdem wird automatisch ein Skript mit dem Verbindungsnamen als Name angelegt. Hier können die SQL-Befehle reingeschrieben und ausgeführt werden (näheres dazu in :ref:`run-sql-statements`).
+Daraufhin wird die Verbindung zum Server hergestellt. Außerdem wird automatisch ein Skript mit dem Verbindungsnamen als Name angelegt. Hier können die SQL-Befehle reingeschrieben und ausgeführt werden (näheres dazu in :ref:`sql_befehle_ausführen`).
 
 
 Passwort ändern
