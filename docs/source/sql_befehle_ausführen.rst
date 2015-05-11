@@ -1,4 +1,4 @@
-.. _run-sql-statements:
+.. _sql_befehle_ausführen:
 
 SQL Befehle ausführen
 =====================
