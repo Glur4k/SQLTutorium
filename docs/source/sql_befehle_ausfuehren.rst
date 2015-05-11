@@ -16,7 +16,7 @@ Alle Befehle / Gesamtes Skript ausführen
 
 Um alle SQL-Statements des Dokumentes bzw. das gesamte Skript auszuführen, kann einfach die "F5"-Taste gedrückt oder der "Skript ausführen"-Button gedrückt werden:
 
-.. figure:: _static/screenshots/Skript_Ausführen.png
+.. figure:: _static/screenshots/Skript_Ausfuehren.png
 
   SQL Developer - Gesamtes Skript ausführen
 
@@ -29,6 +29,6 @@ Einzelnen Befehl ausführen
 Um einen einzelnes SQL-Statement auszuführen reicht es, wenn der Cursor in dem entsprechendem SQL-Statement ist und Strg+Eingabe (Windows, MAC: ctrl+Eingabe) gedrückt wird. Somit läuft nicht immer das gesamte Skript durch, stattdessen können einzenle Befehle schnell ausgeführt und getestet werden.
 
 
-.. figure:: _static/screenshots/Befehl_Ausführen.png
+.. figure:: _static/screenshots/Befehl_Ausfuehren.png
 
   SQL Developer - Einzelnes SQL-Statement ausführen
