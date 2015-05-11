@@ -1,13 +1,9 @@
-SQL Tutorium!
-========================================
+Datenbanksysteme Praktikum
+===========================
 
-Intro
-=====
+Das ist die Informations-Seite für das Praktikum in Datenbanksysteme der HTWG Konstanz.
+Hier werden die Basics des SQL Developers, wie man Befehle ausführt und Allgemeines erklärt.
 
-Hier steht ein bisschen Text als Intro.
-
-    print 'hello'
-    >> hello
 
 Inhalte:
 ^^^^^^^^
@@ -17,4 +13,5 @@ Inhalte:
 
    sql_developer
    sql_befehle_ausfuehren
+   Allgemeines
    FAQ
