@@ -11,4 +11,5 @@ Nun kann einfach zwischen den Verbindungen hin und her gewechselt werden:
 
   SQL Developer - Verbindung wechseln
 
+
 Somit ist schnelles Umschalten zur/von Kunden-Ansicht möglich.
