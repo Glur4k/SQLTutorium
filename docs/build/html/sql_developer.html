@@ -75,19 +75,42 @@ Im Folgenden ein kleines Tutorial wie man sich mit dem SQL Developer auf dem Ser
 </div>
 <p>Dadurch öffnet sich ein Dialogfenster, in dem man die Verbindungsdaten eingeben muss.
 Dort muss folgendes eingetragen werden:</p>
-<div class="highlight-python"><div class="highlight"><pre>1) Verbindungsname: *Der gewünschte Verbindungsname*
-2) Benutzername:    *dbsys + gewählte-Nr. (z.B. dbsys10) -&gt; siehe TN-Liste*
-3) Kennwort:        *wie Benutzername*
-4) Hostname:        *oracle12c.in.htwg-konstanz.de*
-5) SID (DB-Name):   *ora12c*
-</pre></div>
-</div>
 <div class="figure" id="id3">
 <img alt="_images/Verbindungsdaten.png" src="_images/Verbindungsdaten.png" />
 <p class="caption"><span class="caption-text">SQL Developer - Verbindungsdaten</span></p>
 </div>
+<div class="highlight-python"><div class="highlight"><pre>1) Verbindungsname: Der gewünschte Verbindungsname
+2) Benutzername:    dbsys + gewählte-Nr. (z.B. dbsys10) -&gt; siehe TN-Liste
+3) Kennwort:        wie Benutzername
+4) Hostname:        oracle12c.in.htwg-konstanz.de
+5) SID (DB-Name):   ora12c
+</pre></div>
+</div>
 <p>Durch Klick auf &#8220;Test&#8221; können die Einstellungen getestet werden. Wenn dabei keine Fehlermeldung erscheint, sind die Einstellungen korrekt.
-Durch Klick auf &#8220;Speichern&#8221; wird die Verbindung gespeichert und das Fenster geschlossen.</p>
+Durch Klick auf &#8220;Speichern&#8221; wird die Verbindung gespeichert. Um das Fenster zu schließen, muss auf &#8220;Abbrechen&#8221; geklickt werden.</p>
+</div>
+<div class="section" id="verbindung-herstellen">
+<h2>Verbindung herstellen<a class="headerlink" href="#verbindung-herstellen" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Um sich nun mit dem Server zu verbinden, muss auf die gerade erstellte Verbindung ein Rechtsklick gemacht und &#8220;Anmelden&#8221; ausgewählt werden:</p>
+<div class="figure" id="id4">
+<img alt="_images/Anmelden.png" src="_images/Anmelden.png" />
+<p class="caption"><span class="caption-text">SQL Developer - Anmelden</span></p>
+</div>
+<p>Daraufhin wird die Verbindung zum Server hergestellt. Außerdem wird automatisch ein Skript mit dem Verbindungsnamen als Name angelegt. Hier können die SQL-Befehle reingeschrieben und ausgeführt werden (näheres dazu in <a class="reference internal" href="#befehle-ausfuhren">Befehle ausführen</a>).</p>
+</div>
+<div class="section" id="passwort-andern">
+<h2>Passwort ändern<a class="headerlink" href="#passwort-andern" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Nachdem die Verbindung erfolgreich hergestellt wurde sollte das Passwort des jeweiligen DBSys-Users geändert werden.</p>
+<p>Dazu einfach in folgendes SQL-Statement eingeben (und die entsprechenden Daten anpassen):</p>
+<div class="highlight-sql"><div class="highlight"><pre><span class="k">ALTER</span> <span class="k">USER</span> <span class="n">dbsysXX</span>
+<span class="n">IDENTIFIED</span> <span class="k">BY</span> <span class="ss">&quot;altesPasswort(dbsysXX)&quot;</span>
+<span class="k">REPLACE</span> <span class="ss">&quot;neuesPasswort&quot;</span>
+</pre></div>
+</div>
+<p>Anschließend müssen die Änderungen auch in den Verbindungseinstellungen angepasst und sie erneut angemeldet werden.</p>
+</div>
+<div class="section" id="befehle-ausfuhren">
+<h2>Befehle ausführen<a class="headerlink" href="#befehle-ausfuhren" title="Link zu dieser Überschrift">¶</a></h2>
 </div>
 </div>
 
@@ -101,6 +124,9 @@ Durch Klick auf &#8220;Speichern&#8221; wird die Verbindung gespeichert und das 
   <ul>
 <li><a class="reference internal" href="#">SQL Developer</a><ul>
 <li><a class="reference internal" href="#verbindung-anlegen">Verbindung anlegen</a></li>
+<li><a class="reference internal" href="#verbindung-herstellen">Verbindung herstellen</a></li>
+<li><a class="reference internal" href="#passwort-andern">Passwort ändern</a></li>
+<li><a class="reference internal" href="#befehle-ausfuhren">Befehle ausführen</a></li>
 </ul>
 </li>
 </ul>
