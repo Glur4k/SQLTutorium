@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"backgr",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/SELECT.sql",
+			"settings":
+			{
+				"buffer_size": 2035,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "deinst",
+		"selected_items":
+		[
+			[
+				"deinst",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2"
+	],
+	"file_history":
+	[
+		"/Volumes/Klickserver/qrlandings/gulpfile.js",
+		"/Volumes/Klickserver/qrlandings/css/scss/styles.scss",
+		"/Volumes/Klickserver/qrlandings/index.html",
+		"/Volumes/Klickserver/qrlandings/package.json",
+		"/Users/santrotonon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Klickserver/qrlandings/.gitignore",
+		"/Volumes/Klickserver/qrlandings/css/dist/styles.css",
+		"/Volumes/Klickserver/qrlandings/css/scss/styles.sass",
+		"/Users/santrotonon/Downloads/Sarina.Tonon.vcf",
+		"/Users/santrotonon/Desktop/der Plan",
+		"/Users/santrotonon/Downloads/index.html",
+		"/Users/santrotonon/Downloads/Algoriddim.djay.Pro.v1.1.MacOSX.Cracked-ARN/arn.nfo",
+		"/Users/santrotonon/Desktop/index.html",
+		"/private/var/folders/cv/frqxydks3hn_zfy6638hzt4m0000gn/T/79f90e49-03c8-4766-937e-2157c189e8dd/storage/.kodi/userdata/advancedsettings.xml",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/GRANT.sql",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/CREATE.sql",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/SELECT.sql",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/SELECTSUSER.sql",
+		"/Users/santrotonon/Downloads/AGB_HTML.txt",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/INSERT.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil2/CREATE.sql",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/DROP.sql",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/sql_befehle_ausfuehren.rst",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/Zweitaccount.rst",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/Allgemeines.rst",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/sql_developer.rst",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/conf.py",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/index.rst",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/source/Zweitaccount.rst",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/source/FAQ.rst",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/source/Allgemeines.rst",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/docs/SQL_Developer.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/build/html/_static/basic.css",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/docs/index.md",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/conf.py",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/index.rst",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/SQL_Developer.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/img/test.txt",
+		"/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/docs/index.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil2/GRANT.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil2/DROP.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil2/INSERT.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil2/SELECT.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil2/SELECTSUSER.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 3/DbSys/SQL/SELECTSUSER.sql",
+		"/Users/santrotonon/Dropbox/FH/Babo Box/helene/DBSYS/jm/grant.sql",
+		"/Users/santrotonon/Dropbox/FH/Babo Box/helene/DBSYS/jm/fu.sql",
+		"/Users/santrotonon/Dropbox/FH/Babo Box/helene/DBSYS/jm/selects.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 3/DbSys/SQL/GRANT.sql",
+		"/Users/santrotonon/Dropbox/FH/Babo Box/helene/DBSYS/selects.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 3/DbSys/SQL/SELECT.sql",
+		"/Users/santrotonon/Dropbox/FH/Babo Box/helene/DBSYS/jm/inserts.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Teil3/SELECT.sql",
+		"/Users/santrotonon/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/santrotonon/Dropbox/FH/Semester 3/DbSys/SQL/CREATE.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 3/DbSys/SQL/INSERT.sql",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/Aufgabe2/SELECTSUSER.sql",
+		"/private/var/folders/cv/frqxydks3hn_zfy6638hzt4m0000gn/T/fz3temp-1/functions.php",
+		"/Users/santrotonon/Documents/Scripte Tests/script.sh",
+		"/private/var/folders/cv/frqxydks3hn_zfy6638hzt4m0000gn/T/fz3temp-1/wp-config.php",
+		"/Users/santrotonon/Desktop/File.js",
+		"/Users/santrotonon/Desktop/INFO.txt",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/SQL_Developer.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/sql_developer.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/FAQ.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/SQL Developer.md",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/test",
+		"/Users/santrotonon/Dropbox/FH/Semester 7/SQLTutorium/docs/mkdocs.yml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Verbindungsdaten",
+			"*",
+			"dbsys58",
+			"kunde",
+			"ferienwohnung",
+			"ausstattung",
+			"amit",
+			"Bella Casa",
+			"ella Casa",
+			"VALUES",
+			"values",
+			"VALUES",
+			"insert",
+			"INTO",
+			"into",
+			"INTO",
+			"into",
+			"insert",
+			"Backofen",
+			"Loevenich",
+			"dbsys14_",
+			"kunde",
+			"line",
+			"open",
+			"tab",
+			"WPLA"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/santrotonon/Dropbox/fh/semester 7/SQLTutorium/Teil2/SELECT.sql",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SQLTutorium.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
