@@ -56,7 +56,140 @@
             
   <div class="section" id="sql-in-ein-java-programm-einbetten">
 <span id="java-programm-einbettung"></span><h1>SQL in ein JAVA Programm einbetten<a class="headerlink" href="#sql-in-ein-java-programm-einbetten" title="Link zu dieser Überschrift">¶</a></h1>
-<p>TODO - Dieser Inhalt folgt in Kürze.</p>
+<p>Für den Aufgabenteil 4 wird der entsprechende Treiber benötigt:</p>
+<p><a class="reference external" href="https://github.com/Glur4k/SQLTutorium/raw/master/ojdbc6.jar">Download Treiber</a>.</p>
+<p>Dieser muss in Netbeans / Eclipse als externe Library eingebunden werden.</p>
+<p>Anhand von Beispielen soll nun gezeigt werden, wie man die Verbindung herstellt und SQL-Statements ausführt werden.</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p class="last">Es ist sehr empfehlenswert die SQL-Statements zuerst im SQL Developer auszuführen und zu testen, das kann viel Fehlersucherei vermeiden!</p>
+</div>
+<div class="section" id="insert-statement">
+<span id="id1"></span><h2>Insert-Statement<a class="headerlink" href="#insert-statement" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das erste Beispiel zeigt, wie man Daten in die Tabelle einfügt.
+Wichtig beim ausführen ist hierbei, dass man mit dem VPN verbunden ist. Außerdem müssen natürlich Benutzername und Passwort richtig ersetzt werden.</p>
+<div class="code java highlight-python"><div class="highlight"><pre>import java.sql.*;
+
+public class Template {
+
+    public static void main(String args[]) {
+
+        String name = &quot;dbsysXX&quot;;
+        String passwd = &quot;passwort&quot;;
+        Connection conn = null;
+        Statement stmt = null;
+
+        try {
+            // Treiber laden
+            DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+            // String für DB-Connection
+            String url = &quot;jdbc:oracle:thin:@oracle12c.in.htwg-konstanz.de:1521:ora12c&quot;;
+
+            // Verbindung erstellen
+            conn = DriverManager.getConnection(url, name, passwd);
+
+            // Transaction Isolations-Level setzen
+            conn.setTransactionIsolation(conn.TRANSACTION_SERIALIZABLE);
+
+            conn.setAutoCommit(false);
+            stmt = conn.createStatement();
+
+            // INSERT-Query
+            StringBuilder sb = new StringBuilder();
+            sb.append(&quot;INSERT INTO ferienwohnung VALUES (&#39;Name&#39;, &#39;Deutschland&#39;, 2)&quot;);
+
+            // Query ausführen - einfügen
+            String myInsertQuery = sb.toString();
+            stmt.executeQuery(myInsertQuery);
+
+            stmt.close();
+            conn.commit();
+            conn.close();
+        } catch (SQLException se) {
+            System.out.println(&quot;SQL Exception occurred while establishing connection to DBS: \n&quot;
+                    + se.getMessage());
+            try {
+                conn.rollback();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            System.exit(-1);
+        }
+    }
+}
+</pre></div>
+</div>
+</div>
+<div class="section" id="select-statement">
+<span id="id2"></span><h2>Select-Statement<a class="headerlink" href="#select-statement" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das zweite Beispiel zeigt, wie man ein Select-Statement ausführt.
+Hierbei wird angenommen, dass es die Spalten FName, Landname und Anz_Zimmer gibt.</p>
+<div class="code java highlight-python"><div class="highlight"><pre>import java.sql.*;
+
+public class Template {
+
+    public static void main(String args[]) {
+
+        String name = &quot;dbsysXX&quot;;
+        String passwd = &quot;passwort&quot;;
+        Connection conn = null;
+        Statement stmt = null;
+        ResultSet rset = null;
+
+        try {
+            // Treiber laden
+            DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+            // String für DB-Connection
+            String url = &quot;jdbc:oracle:thin:@oracle12c.in.htwg-konstanz.de:1521:ora12c&quot;;
+
+            // Verbindung erstellen
+            conn = DriverManager.getConnection(url, name, passwd);
+
+            // Transaction Isolations-Level setzen
+            conn.setTransactionIsolation(conn.TRANSACTION_SERIALIZABLE);
+
+            conn.setAutoCommit(false);
+            stmt = conn.createStatement();
+
+            // SELECT-Query
+            StringBuilder sb = new StringBuilder();
+            sb.append(&quot;SELECT * FROM ferienwohnung&quot;);
+
+            String mySelectQuery = sb.toString();
+            rset = stmt.executeQuery(mySelectQuery);
+
+            // &quot;Tabellen&quot;-Ansicht bauen
+            System.out.printf(&quot;Name     |      &quot;);
+            System.out.printf(&quot;Land     |  Zimmer\n&quot;);
+            System.out.println(&quot;----------------------------------&quot;);
+
+            while (rset.next()) {
+                System.out.printf(rset.getString(&quot;Fname&quot;) + &quot; | &quot;);
+                System.out.printf(rset.getString(&quot;Landname&quot;) + &quot; | &quot;
+                        + rset.getInt(&quot;Anz_Zimmer&quot;) + &quot; | &quot;);
+                System.out.println(&quot;&quot;);
+            }
+
+            stmt.close();
+            conn.commit();
+            conn.close();
+        } catch (SQLException se) {
+            System.out.println(&quot;SQL Exception occurred while establishing connection to DBS: \n&quot;
+                    + se.getMessage());
+            try {
+                conn.rollback();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            System.exit(-1);
+        }
+    }
+}
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -65,6 +198,15 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Inhalt</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">SQL in ein JAVA Programm einbetten</a><ul>
+<li><a class="reference internal" href="#insert-statement">Insert-Statement</a></li>
+<li><a class="reference internal" href="#select-statement">Select-Statement</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Vorheriges Thema</h4>
   <p class="topless"><a href="Zweitaccount.html"
                         title="vorheriges Kapitel">Zweitaccount</a></p>
