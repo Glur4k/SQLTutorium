@@ -101,7 +101,7 @@ public class Template {
 
             // Query ausführen - einfügen
             String myInsertQuery = sb.toString();
-            stmt.executeQuery(myInsertQuery);
+            stmt.executeUpdate(myInsertQuery);
 
             stmt.close();
             conn.commit();

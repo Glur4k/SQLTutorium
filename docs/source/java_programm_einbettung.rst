@@ -61,7 +61,7 @@ Wichtig beim ausführen ist hierbei, dass man mit dem VPN verbunden ist. Außerd
 
               // Query ausführen - einfügen
               String myInsertQuery = sb.toString();
-              stmt.executeQuery(myInsertQuery);
+              stmt.executeUpdate(myInsertQuery);
 
               stmt.close();
               conn.commit();
